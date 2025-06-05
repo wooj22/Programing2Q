@@ -130,7 +130,12 @@
     <ClCompile Include="malloc_new.cpp" />
     <ClCompile Include="new.cpp" />
     <ClCompile Include="new2.cpp" />
+    <ClCompile Include="new_class.cpp" />
     <ClCompile Include="new_delete.cpp" />
+    <ClCompile Include="new_struct.cpp" />
+    <ClCompile Include="reference1.cpp" />
+    <ClCompile Include="reference2.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

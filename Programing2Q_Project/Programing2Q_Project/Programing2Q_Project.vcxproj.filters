@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\Memory">
       <UniqueIdentifier>{5313636e-bcfe-494f-b92c-a4936fdb4578}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Reference">
+      <UniqueIdentifier>{bff65b69-0793-47c3-acb4-dc1243b979ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -29,6 +32,21 @@
     </ClCompile>
     <ClCompile Include="new_delete.cpp">
       <Filter>소스 파일\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="new_struct.cpp">
+      <Filter>소스 파일\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="new_class.cpp">
+      <Filter>소스 파일\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="reference1.cpp">
+      <Filter>소스 파일\Reference</Filter>
+    </ClCompile>
+    <ClCompile Include="reference2.cpp">
+      <Filter>소스 파일\Reference</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
