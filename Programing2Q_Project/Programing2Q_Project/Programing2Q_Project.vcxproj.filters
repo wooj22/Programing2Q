@@ -19,6 +19,18 @@
     <Filter Include="소스 파일\Reference">
       <UniqueIdentifier>{bff65b69-0793-47c3-acb4-dc1243b979ec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Class">
+      <UniqueIdentifier>{d8286777-d25e-4daa-bbd0-fa314f1bb438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ObjArr">
+      <UniqueIdentifier>{8c8bdd84-cb9e-4dd4-9760-9e9fb2979523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Static">
+      <UniqueIdentifier>{d977c3f5-8d81-4ac5-8ee4-b4c954701740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Cosnt">
+      <UniqueIdentifier>{c7016100-9a38-4c7a-83aa-4ee5cd300420}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -47,6 +59,66 @@
     </ClCompile>
     <ClCompile Include="reference2.cpp">
       <Filter>소스 파일\Reference</Filter>
+    </ClCompile>
+    <ClCompile Include="constructor.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="constructor2.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="RAII.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="memberInit.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="refMember.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="privatecreator.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="delegatingConstructors.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="objArr.cpp">
+      <Filter>소스 파일\ObjArr</Filter>
+    </ClCompile>
+    <ClCompile Include="objPointerArr.cpp">
+      <Filter>소스 파일\ObjArr</Filter>
+    </ClCompile>
+    <ClCompile Include="this.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="this2.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="callBy.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="pointerArr.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="refReturn.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="size.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="constObjPointer.cpp">
+      <Filter>소스 파일\Cosnt</Filter>
+    </ClCompile>
+    <ClCompile Include="mutable.cpp">
+      <Filter>소스 파일\Cosnt</Filter>
+    </ClCompile>
+    <ClCompile Include="constObject.cpp">
+      <Filter>소스 파일\Cosnt</Filter>
+    </ClCompile>
+    <ClCompile Include="staticCommon.cpp">
+      <Filter>소스 파일\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="staticMember.cpp">
+      <Filter>소스 파일\Static</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

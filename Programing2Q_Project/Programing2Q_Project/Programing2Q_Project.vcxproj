@@ -127,15 +127,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="callBy.cpp" />
+    <ClCompile Include="constObject.cpp" />
+    <ClCompile Include="constObjPointer.cpp" />
+    <ClCompile Include="constructor.cpp" />
+    <ClCompile Include="constructor2.cpp" />
+    <ClCompile Include="delegatingConstructors.cpp" />
+    <ClCompile Include="mutable.cpp" />
+    <ClCompile Include="objArr.cpp" />
     <ClCompile Include="malloc_new.cpp" />
+    <ClCompile Include="memberInit.cpp" />
     <ClCompile Include="new.cpp" />
     <ClCompile Include="new2.cpp" />
     <ClCompile Include="new_class.cpp" />
     <ClCompile Include="new_delete.cpp" />
     <ClCompile Include="new_struct.cpp" />
+    <ClCompile Include="objPointerArr.cpp" />
+    <ClCompile Include="pointerArr.cpp" />
+    <ClCompile Include="privatecreator.cpp" />
+    <ClCompile Include="RAII.cpp" />
     <ClCompile Include="reference1.cpp" />
     <ClCompile Include="reference2.cpp" />
+    <ClCompile Include="refMember.cpp" />
+    <ClCompile Include="refReturn.cpp" />
+    <ClCompile Include="size.cpp" />
+    <ClCompile Include="staticCommon.cpp" />
+    <ClCompile Include="staticMember.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="this.cpp" />
+    <ClCompile Include="this2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
