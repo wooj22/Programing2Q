@@ -97,7 +97,7 @@
 //	something.SetValue(5);      // 컴파일 에러: const 위반
 //
 //	return 0;
-}
+//}
 
 
 // const 멤버함수 ***

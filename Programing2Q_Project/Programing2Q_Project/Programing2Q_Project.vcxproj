@@ -133,6 +133,7 @@
     <ClCompile Include="constructor.cpp" />
     <ClCompile Include="constructor2.cpp" />
     <ClCompile Include="delegatingConstructors.cpp" />
+    <ClCompile Include="Lab_ObjArr.cpp" />
     <ClCompile Include="mutable.cpp" />
     <ClCompile Include="objArr.cpp" />
     <ClCompile Include="malloc_new.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="reference2.cpp" />
     <ClCompile Include="refMember.cpp" />
     <ClCompile Include="refReturn.cpp" />
+    <ClCompile Include="Lab_Singleton.cpp" />
     <ClCompile Include="size.cpp" />
     <ClCompile Include="staticCommon.cpp" />
     <ClCompile Include="staticMember.cpp" />

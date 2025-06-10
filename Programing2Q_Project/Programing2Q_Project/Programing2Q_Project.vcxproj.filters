@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\Cosnt">
       <UniqueIdentifier>{c7016100-9a38-4c7a-83aa-4ee5cd300420}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Lab">
+      <UniqueIdentifier>{1b40132c-b26f-4f83-a319-f67dd03fb5bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -119,6 +122,12 @@
     </ClCompile>
     <ClCompile Include="staticMember.cpp">
       <Filter>소스 파일\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab_ObjArr.cpp">
+      <Filter>소스 파일\Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab_Singleton.cpp">
+      <Filter>소스 파일\Lab</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
