@@ -23,7 +23,7 @@
 //class Item 
 //{
 //public:
-//	static int _itemTotalCount;
+//	static int itemTotalCount;
 //
 //private:
 //	int _index;
@@ -34,7 +34,7 @@
 //public:
 //	Item(string name, int level, Grade grade) :
 //		_name(name), _level(level), _grade(grade) {	
-//		++_itemTotalCount; _index = _itemTotalCount;
+//		++itemTotalCount; _index = itemTotalCount;
 //	}
 //
 //	void Show();
@@ -47,7 +47,7 @@
 //	void GradeUp();
 //};
 //
-//int Item::_itemTotalCount = 0;  // static 멤버 초기화
+//int Item::itemTotalCount = 0;  // static 멤버 초기화
 //
 //void Item::Show() 
 //{
@@ -120,7 +120,7 @@
 //
 //	// 강화
 //	EnhanceSystem enhanceSystem;
-//	itemList[Item::_itemTotalCount] = enhanceSystem.Enhance(itemList);
+//	itemList[Item::itemTotalCount] = enhanceSystem.Enhance(itemList);
 //
 //	// show
 //	for (int i = 0; i < itemListSize; i++) {
