@@ -164,6 +164,7 @@
     <ClCompile Include="refMember.cpp" />
     <ClCompile Include="refReturn.cpp" />
     <ClCompile Include="Lab_Singleton.cpp" />
+    <ClCompile Include="singletone.cpp" />
     <ClCompile Include="size.cpp" />
     <ClCompile Include="staticCommon.cpp" />
     <ClCompile Include="staticMember.cpp" />

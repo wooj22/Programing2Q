@@ -174,5 +174,8 @@
     <ClCompile Include="OperationOverloading.cpp">
       <Filter>소스 파일\OperationOverloading</Filter>
     </ClCompile>
+    <ClCompile Include="singletone.cpp">
+      <Filter>소스 파일\Static</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
