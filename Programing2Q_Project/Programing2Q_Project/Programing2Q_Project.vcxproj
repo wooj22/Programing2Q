@@ -127,14 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="allocation.cpp" />
+    <ClCompile Include="ArrayManager.cpp" />
     <ClCompile Include="callBy.cpp" />
     <ClCompile Include="constObject.cpp" />
     <ClCompile Include="constObjPointer.cpp" />
     <ClCompile Include="constructor.cpp" />
     <ClCompile Include="constructor2.cpp" />
+    <ClCompile Include="define.cpp" />
     <ClCompile Include="delegatingConstructors.cpp" />
+    <ClCompile Include="friendFunc.cpp" />
+    <ClCompile Include="friendClass.cpp" />
+    <ClCompile Include="friendMemberFunc.cpp" />
+    <ClCompile Include="friend_test2.cpp" />
+    <ClCompile Include="friend_test1.cpp" />
     <ClCompile Include="Lab_ObjArr.cpp" />
     <ClCompile Include="mutable.cpp" />
+    <ClCompile Include="nestedClass.cpp" />
+    <ClCompile Include="nestedClass2.cpp" />
+    <ClCompile Include="nestedClass3.cpp" />
     <ClCompile Include="objArr.cpp" />
     <ClCompile Include="malloc_new.cpp" />
     <ClCompile Include="memberInit.cpp" />
@@ -144,6 +155,7 @@
     <ClCompile Include="new_delete.cpp" />
     <ClCompile Include="new_struct.cpp" />
     <ClCompile Include="objPointerArr.cpp" />
+    <ClCompile Include="OperationOverloading.cpp" />
     <ClCompile Include="pointerArr.cpp" />
     <ClCompile Include="privatecreator.cpp" />
     <ClCompile Include="RAII.cpp" />

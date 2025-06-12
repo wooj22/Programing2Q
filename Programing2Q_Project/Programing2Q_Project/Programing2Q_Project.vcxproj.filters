@@ -34,6 +34,15 @@
     <Filter Include="소스 파일\Lab">
       <UniqueIdentifier>{1b40132c-b26f-4f83-a319-f67dd03fb5bb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\friend">
+      <UniqueIdentifier>{1d860760-a09c-40a0-a9a7-6f9ef9b6401c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NestedClass">
+      <UniqueIdentifier>{e6ab8caf-f914-4ae3-83eb-4b747d1c58dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OperationOverloading">
+      <UniqueIdentifier>{6cfbdd1a-c0f3-4626-b55d-65d5526fc41a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -128,6 +137,42 @@
     </ClCompile>
     <ClCompile Include="Lab_Singleton.cpp">
       <Filter>소스 파일\Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="define.cpp">
+      <Filter>소스 파일\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="friendFunc.cpp">
+      <Filter>소스 파일\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="friendClass.cpp">
+      <Filter>소스 파일\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="friendMemberFunc.cpp">
+      <Filter>소스 파일\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="friend_test2.cpp">
+      <Filter>소스 파일\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="friend_test1.cpp">
+      <Filter>소스 파일\friend</Filter>
+    </ClCompile>
+    <ClCompile Include="nestedClass.cpp">
+      <Filter>소스 파일\NestedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="nestedClass2.cpp">
+      <Filter>소스 파일\NestedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="nestedClass3.cpp">
+      <Filter>소스 파일\NestedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayManager.cpp">
+      <Filter>소스 파일\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="allocation.cpp">
+      <Filter>소스 파일\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationOverloading.cpp">
+      <Filter>소스 파일\OperationOverloading</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
