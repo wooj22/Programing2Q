@@ -177,5 +177,23 @@
     <ClCompile Include="singletone.cpp">
       <Filter>소스 파일\Static</Filter>
     </ClCompile>
+    <ClCompile Include="plusSunFuOperator.cpp">
+      <Filter>소스 파일\OperationOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="plusSunFuOperator2.cpp">
+      <Filter>소스 파일\OperationOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="operator=.cpp">
+      <Filter>소스 파일\OperationOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="operator[].cpp">
+      <Filter>소스 파일\OperationOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="operatorPointer.cpp">
+      <Filter>소스 파일\OperationOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="functor.cpp">
+      <Filter>소스 파일\OperationOverloading</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
