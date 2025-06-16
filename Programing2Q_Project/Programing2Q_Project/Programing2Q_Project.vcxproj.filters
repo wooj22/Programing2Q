@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\OperationOverloading">
       <UniqueIdentifier>{6cfbdd1a-c0f3-4626-b55d-65d5526fc41a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Class\Constructor">
+      <UniqueIdentifier>{51207d24-54b3-41a8-85ce-b5e974b5c047}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -194,6 +197,21 @@
     </ClCompile>
     <ClCompile Include="functor.cpp">
       <Filter>소스 파일\OperationOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="functorSort.cpp">
+      <Filter>소스 파일\OperationOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="copyConstructor.cpp">
+      <Filter>소스 파일\Class\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab_MemoryLeak.cpp">
+      <Filter>소스 파일\Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab_DynamicArrayClass.cpp">
+      <Filter>소스 파일\Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab_OperatorOverlaoding.cpp">
+      <Filter>소스 파일\Lab</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

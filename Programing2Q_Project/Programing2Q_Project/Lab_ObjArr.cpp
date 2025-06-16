@@ -27,23 +27,23 @@
 //
 //private:
 //	int _index;
-//	string _name;
+//	string name;
 //	int _level;
-//	Grade _grade;
+//	Grade grade;
 //
 //public:
 //	Item(string name, int level, Grade grade) :
-//		_name(name), _level(level), _grade(grade) {	
+//		name(name), _level(level), grade(grade) {	
 //		++itemTotalCount; _index = itemTotalCount;
 //	}
 //
 //	void Show();
 //
 //	int GetIndex() { return _index; }
-//	string GetName() { return _name; }
+//	string GetName() { return name; }
 //	int GetLevel() { return _level; }
-//	Grade GetGrade() { return _grade; }
-//	void SetGrade(Grade grade) { _grade = grade; }
+//	Grade GetGrade() { return grade; }
+//	void SetGrade(Grade grade) { grade = grade; }
 //	void GradeUp();
 //};
 //
@@ -51,21 +51,21 @@
 //
 //void Item::Show() 
 //{
-//	cout << "Item " << _index << ". " << _name << endl;
-//	cout << "\tLevel - " << _level << "  Grade - " << GradeToString(_grade) << endl;
+//	cout << "Item " << _index << ". " << name << endl;
+//	cout << "\tLevel - " << _level << "  Grade - " << GradeToString(grade) << endl;
 //}
 //
 //void Item::GradeUp() 
 //{ 
 //	// upgrade
-//	switch (_grade) {
-//	case Grade::C: _grade = Grade::B; break;
-//	case Grade::B: _grade = Grade::A; break;
-//	case Grade::A: _grade = Grade::S; break;
+//	switch (grade) {
+//	case Grade::C: grade = Grade::B; break;
+//	case Grade::B: grade = Grade::A; break;
+//	case Grade::A: grade = Grade::S; break;
 //	default:  break;
 //	}
 //
-//	cout << GradeToString(_grade) << "등급으로 업그레이드 되었습니다.\n";
+//	cout << GradeToString(grade) << "등급으로 업그레이드 되었습니다.\n";
 //}
 //
 //

@@ -134,6 +134,7 @@
     <ClCompile Include="constObjPointer.cpp" />
     <ClCompile Include="constructor.cpp" />
     <ClCompile Include="constructor2.cpp" />
+    <ClCompile Include="copyConstructor.cpp" />
     <ClCompile Include="define.cpp" />
     <ClCompile Include="delegatingConstructors.cpp" />
     <ClCompile Include="friendFunc.cpp" />
@@ -141,7 +142,11 @@
     <ClCompile Include="friendMemberFunc.cpp" />
     <ClCompile Include="friend_test2.cpp" />
     <ClCompile Include="friend_test1.cpp" />
+    <ClCompile Include="functorSort.cpp" />
+    <ClCompile Include="Lab_DynamicArrayClass.cpp" />
+    <ClCompile Include="Lab_MemoryLeak.cpp" />
     <ClCompile Include="Lab_ObjArr.cpp" />
+    <ClCompile Include="Lab_OperatorOverlaoding.cpp" />
     <ClCompile Include="mutable.cpp" />
     <ClCompile Include="nestedClass.cpp" />
     <ClCompile Include="nestedClass2.cpp" />
