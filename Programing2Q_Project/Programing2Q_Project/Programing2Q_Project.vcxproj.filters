@@ -213,5 +213,17 @@
     <ClCompile Include="Lab_OperatorOverlaoding.cpp">
       <Filter>소스 파일\Lab</Filter>
     </ClCompile>
+    <ClCompile Include="copyConstructor2.cpp">
+      <Filter>소스 파일\Class\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="moveConstructor.cpp">
+      <Filter>소스 파일\Class\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="trans.cpp">
+      <Filter>소스 파일\Class\Constructor</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab_String.cpp">
+      <Filter>소스 파일\Lab</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

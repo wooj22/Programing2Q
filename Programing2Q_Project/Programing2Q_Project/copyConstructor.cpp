@@ -1,30 +1,29 @@
 //#include <iostream>
 //using namespace std;
 //
-//// 멤버에 포인터가 있는 경우 얕은 복사를 하면 큰일남
+//class CTest {
+//public:
+//	// 생성자
+//	CTest() { cout << "CTest()" << endl; }
 //
-//class Myclass {
-//public :
-//	int* p = nullptr;
-//	int size;
+//	// 복사 생성자, 복사 대입 연산자
+//	CTest(const CTest& obj) { cout << "CTest(const CTest& obj)" << endl; }
+//	CTest& operator=(const CTest& obj) { cout << "CTest& operator=(const CTest& obj)" << endl; return *this; }
 //
-//	Myclass() { p = new int[size]; }
-//	~Myclass() { delete[] p; }
-//
-//	// 복사 생성자
-//	Myclass(const Myclass& obj) {
-//
-//	}
-//
-//	// 대입 연산 생성
-//	Myclass& operator= (const Myclass& obj) {
-//
-//	}
+//	// 이동 생성자, 이동 대입 연산자
+//	CTest(CTest&& obj) noexcept { cout << "CTest(CTest&& obj)" << endl; }
+//	CTest& operator=(CTest&& obj) noexcept { cout << "CTest& operator=(CTest&& obj)" << endl; return *this; }
 //};
 //
-//int main() {
-//	Myclass a;
-//	Myclass b = a;
+//int main()
+//{
+//	CTest c1;
+//
+//	CTest c2 = c1;
+//	c1 = c2;
+//
+//	CTest c3 = move(c1);
+//	c1 = move(c3);
 //
 //	return 0;
 //}

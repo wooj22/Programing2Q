@@ -135,6 +135,7 @@
     <ClCompile Include="constructor.cpp" />
     <ClCompile Include="constructor2.cpp" />
     <ClCompile Include="copyConstructor.cpp" />
+    <ClCompile Include="copyConstructor2.cpp" />
     <ClCompile Include="define.cpp" />
     <ClCompile Include="delegatingConstructors.cpp" />
     <ClCompile Include="friendFunc.cpp" />
@@ -147,6 +148,8 @@
     <ClCompile Include="Lab_MemoryLeak.cpp" />
     <ClCompile Include="Lab_ObjArr.cpp" />
     <ClCompile Include="Lab_OperatorOverlaoding.cpp" />
+    <ClCompile Include="Lab_String.cpp" />
+    <ClCompile Include="moveConstructor.cpp" />
     <ClCompile Include="mutable.cpp" />
     <ClCompile Include="nestedClass.cpp" />
     <ClCompile Include="nestedClass2.cpp" />
@@ -182,6 +185,7 @@
     <ClCompile Include="this.cpp" />
     <ClCompile Include="this2.cpp" />
     <ClCompile Include="functor.cpp" />
+    <ClCompile Include="trans.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
