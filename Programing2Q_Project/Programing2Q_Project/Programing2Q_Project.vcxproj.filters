@@ -46,6 +46,18 @@
     <Filter Include="소스 파일\Class\Constructor">
       <UniqueIdentifier>{51207d24-54b3-41a8-85ce-b5e974b5c047}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Class\Casting">
+      <UniqueIdentifier>{8a1124de-ebee-47d8-9ef9-6347c77906d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class\Polymorphism">
+      <UniqueIdentifier>{131f5039-0a88-4ed7-8584-a9357a711a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class\Abstract">
+      <UniqueIdentifier>{01936e5a-5bd2-499a-bc5b-bb3817133d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class\MultipleInheritance">
+      <UniqueIdentifier>{cdd8f511-3520-4fba-8cd3-994ff89d774d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -224,6 +236,30 @@
     </ClCompile>
     <ClCompile Include="Lab_String.cpp">
       <Filter>소스 파일\Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="casting.cpp">
+      <Filter>소스 파일\Class\Casting</Filter>
+    </ClCompile>
+    <ClCompile Include="upcastingOverriding.cpp">
+      <Filter>소스 파일\Class\Casting</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicBinding.cpp">
+      <Filter>소스 파일\Class\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Polymorphism.cpp">
+      <Filter>소스 파일\Class\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPolymorphism.cpp">
+      <Filter>소스 파일\Class\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="abstract.cpp">
+      <Filter>소스 파일\Class\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualExtinct .cpp">
+      <Filter>소스 파일\Class\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleInheritance.cpp">
+      <Filter>소스 파일\Class\MultipleInheritance</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
