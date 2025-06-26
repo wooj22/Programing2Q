@@ -138,15 +138,21 @@
     <ClCompile Include="constructor2.cpp" />
     <ClCompile Include="copyConstructor.cpp" />
     <ClCompile Include="copyConstructor2.cpp" />
+    <ClCompile Include="covariantReturnRule.cpp" />
+    <ClCompile Include="decltype.cpp" />
     <ClCompile Include="define.cpp" />
     <ClCompile Include="delegatingConstructors.cpp" />
     <ClCompile Include="DynamicBinding.cpp" />
+    <ClCompile Include="final.cpp" />
     <ClCompile Include="friendFunc.cpp" />
     <ClCompile Include="friendClass.cpp" />
     <ClCompile Include="friendMemberFunc.cpp" />
     <ClCompile Include="friend_test2.cpp" />
     <ClCompile Include="friend_test1.cpp" />
     <ClCompile Include="functorSort.cpp" />
+    <ClCompile Include="interface1.cpp" />
+    <ClCompile Include="interface2.cpp" />
+    <ClCompile Include="interface3.cpp" />
     <ClCompile Include="ItemPolymorphism.cpp" />
     <ClCompile Include="Lab_DynamicArrayClass.cpp" />
     <ClCompile Include="Lab_MemoryLeak.cpp" />
@@ -170,8 +176,13 @@
     <ClCompile Include="objPointerArr.cpp" />
     <ClCompile Include="OperationOverloading.cpp" />
     <ClCompile Include="operator=.cpp" />
+    <ClCompile Include="OperatorInheritance1.cpp" />
+    <ClCompile Include="OperatorInheritance2.cpp" />
+    <ClCompile Include="OperatorInheritance3.cpp" />
+    <ClCompile Include="OperatorInheritance4.cpp" />
     <ClCompile Include="operatorPointer.cpp" />
     <ClCompile Include="operator[].cpp" />
+    <ClCompile Include="overloaing.cpp" />
     <ClCompile Include="plusSunFuOperator.cpp" />
     <ClCompile Include="plusSunFuOperator2.cpp" />
     <ClCompile Include="pointerArr.cpp" />
@@ -183,17 +194,32 @@
     <ClCompile Include="refMember.cpp" />
     <ClCompile Include="refReturn.cpp" />
     <ClCompile Include="Lab_Singleton.cpp" />
+    <ClCompile Include="RTTI1.cpp" />
+    <ClCompile Include="RTTI2.cpp" />
     <ClCompile Include="singletone.cpp" />
     <ClCompile Include="size.cpp" />
     <ClCompile Include="staticCommon.cpp" />
     <ClCompile Include="staticMember.cpp" />
+    <ClCompile Include="tempaleInit.cpp" />
+    <ClCompile Include="template.cpp" />
+    <ClCompile Include="templateClass.cpp" />
+    <ClCompile Include="templateClassAgrs.cpp" />
+    <ClCompile Include="templateClassPartSpecialization.cpp" />
+    <ClCompile Include="templateClassSpecialization.cpp" />
+    <ClCompile Include="templateMember.cpp" />
+    <ClCompile Include="templateSpecialization.cpp" />
+    <ClCompile Include="templateStaticMember.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="this.cpp" />
     <ClCompile Include="this2.cpp" />
     <ClCompile Include="functor.cpp" />
     <ClCompile Include="trans.cpp" />
     <ClCompile Include="upcastingOverriding.cpp" />
+    <ClCompile Include="variableTemplate.cpp" />
     <ClCompile Include="virtualExtinct .cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="templateClass.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

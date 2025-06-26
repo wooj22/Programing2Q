@@ -1,189 +1,189 @@
-////Item class
+////item class
 ////	user id, name, grade
-////	SetGrade, GetGrade, GradeUp, Show 함수
+////	setgrade, getgrade, gradeup, show 함수
 //
-////ItemManager class
-////	Item 목록을 관리하는 클래스
+////itemmanager class
+////	item 목록을 관리하는 클래스
 //// 	추가, 삭제, 검색, 출력 기능 구현
 //
-//// Item* list(동적할당 활용)
+//// item* list(동적할당 활용)
 //// 각각 필요에 따라 동적할당하여 클래스에서 관리하는 연습 
-//// 추후-> vector<Item> 활용
+//// 추후-> vector<item> 활용
 //
 //#include <iostream>
 //#include <string>
 //using namespace std;
 //
-///*------- Grade enum -------*/
-//enum class Grade
+///*------- grade enum -------*/
+//enum class grade
 //{
-//	NONE, C, B, A, S
+//	none, c, b, a, s
 //};
 //
-//Grade StringToGrade(string& grade) {
-//	if (grade == "C") return Grade::C;
-//	if (grade == "B") return Grade::B;
-//	if (grade == "A") return Grade::A;
-//	if (grade == "S") return Grade::S;
-//	return Grade::NONE;
+//grade stringtograde(string& grade) {
+//	if (grade == "c") return grade::c;
+//	if (grade == "b") return grade::b;
+//	if (grade == "a") return grade::a;
+//	if (grade == "s") return grade::s;
+//	return grade::none;
 //}
 //
-//string GradeToString(Grade grade)
+//string gradetostring(grade grade)
 //{
 //	switch (grade) {
-//	case Grade::C: return "C";
-//	case Grade::B: return "B";
-//	case Grade::A: return "A";
-//	case Grade::S: return "S";
-//	default: return "Unknown";
+//	case grade::c: return "c";
+//	case grade::b: return "b";
+//	case grade::a: return "a";
+//	case grade::s: return "s";
+//	default: return "unknown";
 //	}
 //}
 //
 //
-///*------- Item class -------*/
-//class Item
+///*------- item class -------*/
+//class item
 //{
 //private:
 //	int index;
 //	string name;
-//	Grade grade;
+//	grade grade;
 //
 //public:
-//	Item() {};
-//	~Item() {}
+//	item() {};
+//	~item() {}
 //
-//	void DataSetting(int index, string name, Grade grade) 
+//	void datasetting(int index, string name, grade grade) 
 //	{
 //		this->index = index; this->name = name; this->grade = grade;
 //	}
 //
-//	void SetIndex(int index) { index = index; }
-//	void SetName(string name) { this->name = name; }
-//	void SetGrade(Grade grade) { grade = grade; }
+//	void setindex(int index) { index = index; }
+//	void setname(string name) { this->name = name; }
+//	void setgrade(grade grade) { grade = grade; }
 //
-//	int GetIndex() { return index; }
-//	string GetName() { return name; }
-//	Grade GetGrade() { return grade; }
+//	int getindex() { return index; }
+//	string getname() { return name; }
+//	grade getgrade() { return grade; }
 //
-//	void Show() 
+//	void show() 
 //	{
-//		cout << index << ". " << name << "  Grade : " << GradeToString(grade) << endl;
+//		cout << index << ". " << name << "  grade : " << gradetostring(grade) << endl;
 //	}
 //
-//	void GradeUp() 
+//	void gradeup() 
 //	{
 //		// upgrade
 //		switch (grade) {
-//		case Grade::C: grade = Grade::B; break;
-//		case Grade::B: grade = Grade::A; break;
-//		case Grade::A: grade = Grade::S; break;
+//		case grade::c: grade = grade::b; break;
+//		case grade::b: grade = grade::a; break;
+//		case grade::a: grade = grade::s; break;
 //		default:  break;
 //		}
 //
-//		cout << GradeToString(grade) << "등급으로 업그레이드 되었습니다.\n";
+//		cout << gradetostring(grade) << "등급으로 업그레이드 되었습니다.\n";
 //	}
 //};
 //
 //
-///*------- ItemManager class -------*/
-//class ItemManager {
+///*------- itemmanager class -------*/
+//class itemmanager {
 //private:
-//	Item* itemList = nullptr;
+//	item* itemlist = nullptr;
 //	int size = 0;
 //
 //public:
-//	ItemManager() {}
-//	~ItemManager() { if(itemList != nullptr) delete[] itemList; }
+//	itemmanager() {}
+//	~itemmanager() { if(itemlist != nullptr) delete[] itemlist; }
 //
-//	void Add(int index, string name, string grade) 
+//	void add(int index, string name, string grade) 
 //	{
 //		// new item list
-//		Item* itemList_new = new Item[size + 1];
+//		item* itemlist_new = new item[size + 1];
 //		
 //		// copy
-//		for (size_t i = 0; i < size; i++) itemList_new[i] = itemList[i];
+//		for (size_t i = 0; i < size; i++) itemlist_new[i] = itemlist[i];
 //		
 //		// new item data init
-//		itemList_new[size].DataSetting(index, name, StringToGrade(grade));
+//		itemlist_new[size].datasetting(index, name, stringtograde(grade));
 //
 //		// memory update
-//		delete[] itemList;
-//		itemList = itemList_new;
+//		delete[] itemlist;
+//		itemlist = itemlist_new;
 //		size++;
 //
 //		cout << index << "번 아이템을 추가했습니다." << endl;
 //	}
 //
-//	Item* Find(int targetIndex)
+//	item* find(int targetindex)
 //	{
 //		for(size_t i = 0; i<size; i++)
 //		{
-//			if (itemList[i].GetIndex() == targetIndex) {
-//				cout << targetIndex << "번 아이템을 찾았습니다." << endl;
-//				itemList[i].Show();
-//				return &itemList[i];
+//			if (itemlist[i].getindex() == targetindex) {
+//				cout << targetindex << "번 아이템을 찾았습니다." << endl;
+//				itemlist[i].show();
+//				return &itemlist[i];
 //			}
 //		}
 //
-//		cout << targetIndex << "번 아이템을 찾을 수 없습니다." << endl;
+//		cout << targetindex << "번 아이템을 찾을 수 없습니다." << endl;
 //		return nullptr;
 //	}
 //
-//	void Remove(int targetIndex) 
+//	void remove(int targetindex) 
 //	{
 //		if (size == 0) {
-//			cout << targetIndex << "번 아이템을 찾을 수 없습니다." << endl;
+//			cout << targetindex << "번 아이템을 찾을 수 없습니다." << endl;
 //			return;
 //		}
 //
 //		// new item list
-//		Item* itemList_new = new Item[size - 1];
+//		item* itemlist_new = new item[size - 1];
 //
 //		// copy
 //		for (size_t i = 0, j = 0; i < size; i++) {
-//			if (i == (targetIndex - 1)) continue;
-//			itemList_new[j++] = itemList[i];
+//			if (i == (targetindex - 1)) continue;
+//			itemlist_new[j++] = itemlist[i];
 //		}
 //
 //		// memory update
-//		delete[] itemList;
-//		itemList = itemList_new;
+//		delete[] itemlist;
+//		itemlist = itemlist_new;
 //		size--;
 //
-//		cout << targetIndex << "번 아이템을 삭제했습니다." << endl;
+//		cout << targetindex << "번 아이템을 삭제했습니다." << endl;
 //	}
 //
-//	void Print() 
+//	void print() 
 //	{
-//		cout << "Item List 목록을 출력합니다." << endl;
-//		for (size_t i=0; i < size; i++) itemList[i].Show();
+//		cout << "item list 목록을 출력합니다." << endl;
+//		for (size_t i=0; i < size; i++) itemlist[i].show();
 //	}
 //
-//	Item* operator[](int index) 
+//	item* operator[](int index) 
 //	{ 
 //		if (size == 0)return nullptr; 
-//		return &itemList[index];
+//		return &itemlist[index];
 //	}
 //};
 //
 //int main()
 //{
-//	ItemManager manager;
+//	itemmanager manager;
 //
 //	// add
-//	manager.Add(1, "item1", "A");
-//	manager.Add(2, "item2", "B");
-//	manager.Add(3, "item3", "C");
-//	manager.Print();
+//	manager.add(1, "item1", "a");
+//	manager.add(2, "item2", "b");
+//	manager.add(3, "item3", "c");
+//	manager.print();
 //
 //	// find
-//	Item* item = manager.Find(2);
+//	item* item = manager.find(2);
 //
 //	// remove
-//	manager.Remove(2);
-//	manager.Print();
+//	manager.remove(2);
+//	manager.print();
 //
 //	// [] operator overloading
-//	manager[0]->GradeUp();
-//	manager[0]->Show();
+//	manager[0]->gradeup();
+//	manager[0]->show();
 //}
