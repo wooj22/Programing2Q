@@ -339,6 +339,9 @@
     <ClCompile Include="variableTemplate.cpp">
       <Filter>소스 파일\Template</Filter>
     </ClCompile>
+    <ClCompile Include="Lab_Polymorphism.cpp">
+      <Filter>소스 파일\Lab</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="templateClass.hpp">

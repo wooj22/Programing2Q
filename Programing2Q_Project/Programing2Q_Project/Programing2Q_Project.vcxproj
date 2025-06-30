@@ -158,6 +158,7 @@
     <ClCompile Include="Lab_MemoryLeak.cpp" />
     <ClCompile Include="Lab_ObjArr.cpp" />
     <ClCompile Include="Lab_OperatorOverlaoding.cpp" />
+    <ClCompile Include="Lab_Polymorphism.cpp" />
     <ClCompile Include="Lab_String.cpp" />
     <ClCompile Include="moveConstructor.cpp" />
     <ClCompile Include="MultipleInheritance.cpp" />
