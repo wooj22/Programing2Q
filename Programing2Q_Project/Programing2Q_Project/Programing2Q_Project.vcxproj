@@ -150,6 +150,10 @@
     <ClCompile Include="friend_test2.cpp" />
     <ClCompile Include="friend_test1.cpp" />
     <ClCompile Include="functorSort.cpp" />
+    <ClCompile Include="instantiation.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="interface1.cpp" />
     <ClCompile Include="interface2.cpp" />
     <ClCompile Include="interface3.cpp" />
@@ -166,6 +170,7 @@
     <ClCompile Include="nestedClass.cpp" />
     <ClCompile Include="nestedClass2.cpp" />
     <ClCompile Include="nestedClass3.cpp" />
+    <ClCompile Include="nonType_template_params.cpp" />
     <ClCompile Include="objArr.cpp" />
     <ClCompile Include="malloc_new.cpp" />
     <ClCompile Include="memberInit.cpp" />
@@ -201,15 +206,24 @@
     <ClCompile Include="size.cpp" />
     <ClCompile Include="staticCommon.cpp" />
     <ClCompile Include="staticMember.cpp" />
+    <ClCompile Include="teaplate_static.cpp" />
     <ClCompile Include="tempaleInit.cpp" />
     <ClCompile Include="template.cpp" />
     <ClCompile Include="templateClass.cpp" />
     <ClCompile Include="templateClassAgrs.cpp" />
     <ClCompile Include="templateClassPartSpecialization.cpp" />
     <ClCompile Include="templateClassSpecialization.cpp" />
+    <ClCompile Include="templateClass_templateClassMember.cpp" />
     <ClCompile Include="templateMember.cpp" />
     <ClCompile Include="templateSpecialization.cpp" />
     <ClCompile Include="templateStaticMember.cpp" />
+    <ClCompile Include="template_default_type.cpp" />
+    <ClCompile Include="template_default_type2.cpp" />
+    <ClCompile Include="template_init.cpp" />
+    <ClCompile Include="template_param_const_ref.cpp" />
+    <ClCompile Include="template_param_const_ref2.cpp" />
+    <ClCompile Include="template_static_member.cpp" />
+    <ClCompile Include="template_template_prams.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="this.cpp" />
     <ClCompile Include="this2.cpp" />

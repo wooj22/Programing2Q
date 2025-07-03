@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\Template">
       <UniqueIdentifier>{31324466-688a-4436-9a00-8c1097547054}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Cast">
+      <UniqueIdentifier>{949d21a5-cd55-4918-acb7-fe17ed94c762}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -341,6 +344,39 @@
     </ClCompile>
     <ClCompile Include="Lab_Polymorphism.cpp">
       <Filter>소스 파일\Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="template_init.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="template_param_const_ref.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="template_param_const_ref2.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="teaplate_static.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="template_static_member.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="template_default_type.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="template_default_type2.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="templateClass_templateClassMember.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="nonType_template_params.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="template_template_prams.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiation.cpp">
+      <Filter>소스 파일\Template</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
