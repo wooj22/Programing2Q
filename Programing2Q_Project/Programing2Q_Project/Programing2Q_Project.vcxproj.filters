@@ -70,6 +70,15 @@
     <Filter Include="소스 파일\Cast">
       <UniqueIdentifier>{949d21a5-cd55-4918-acb7-fe17ed94c762}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\SmartPointer">
+      <UniqueIdentifier>{7b1c6b19-4b64-49a3-b16d-324655d34537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\StaticCast">
+      <UniqueIdentifier>{e61a158e-6517-4d17-8042-87a53706c46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL">
+      <UniqueIdentifier>{4502065b-f2ed-4e2d-a4ff-3fc676f53211}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -377,6 +386,33 @@
     </ClCompile>
     <ClCompile Include="instantiation.cpp">
       <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_pointer.cpp">
+      <Filter>소스 파일\SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="smart_pointer_raii.cpp">
+      <Filter>소스 파일\SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="unique_ptr.cpp">
+      <Filter>소스 파일\SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="shared_ptr.cpp">
+      <Filter>소스 파일\SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="circual_reference.cpp">
+      <Filter>소스 파일\SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="weak_ptr.cpp">
+      <Filter>소스 파일\SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>소스 파일\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="iterator.cpp">
+      <Filter>소스 파일\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.cpp">
+      <Filter>소스 파일\STL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

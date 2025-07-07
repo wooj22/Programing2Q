@@ -132,6 +132,7 @@
     <ClCompile Include="ArrayManager.cpp" />
     <ClCompile Include="callBy.cpp" />
     <ClCompile Include="casting.cpp" />
+    <ClCompile Include="circual_reference.cpp" />
     <ClCompile Include="constObject.cpp" />
     <ClCompile Include="constObjPointer.cpp" />
     <ClCompile Include="constructor.cpp" />
@@ -158,6 +159,7 @@
     <ClCompile Include="interface2.cpp" />
     <ClCompile Include="interface3.cpp" />
     <ClCompile Include="ItemPolymorphism.cpp" />
+    <ClCompile Include="iterator.cpp" />
     <ClCompile Include="Lab_DynamicArrayClass.cpp" />
     <ClCompile Include="Lab_MemoryLeak.cpp" />
     <ClCompile Include="Lab_ObjArr.cpp" />
@@ -202,8 +204,12 @@
     <ClCompile Include="Lab_Singleton.cpp" />
     <ClCompile Include="RTTI1.cpp" />
     <ClCompile Include="RTTI2.cpp" />
+    <ClCompile Include="shared_ptr.cpp" />
     <ClCompile Include="singletone.cpp" />
     <ClCompile Include="size.cpp" />
+    <ClCompile Include="smart_pointer.cpp" />
+    <ClCompile Include="smart_pointer_raii.cpp" />
+    <ClCompile Include="sort.cpp" />
     <ClCompile Include="staticCommon.cpp" />
     <ClCompile Include="staticMember.cpp" />
     <ClCompile Include="teaplate_static.cpp" />
@@ -229,9 +235,12 @@
     <ClCompile Include="this2.cpp" />
     <ClCompile Include="functor.cpp" />
     <ClCompile Include="trans.cpp" />
+    <ClCompile Include="unique_ptr.cpp" />
     <ClCompile Include="upcastingOverriding.cpp" />
     <ClCompile Include="variableTemplate.cpp" />
+    <ClCompile Include="vector.cpp" />
     <ClCompile Include="virtualExtinct .cpp" />
+    <ClCompile Include="weak_ptr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="templateClass.hpp" />
