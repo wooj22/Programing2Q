@@ -79,6 +79,9 @@
     <Filter Include="소스 파일\STL">
       <UniqueIdentifier>{4502065b-f2ed-4e2d-a4ff-3fc676f53211}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Exception">
+      <UniqueIdentifier>{2edb9f8b-06e6-4ac4-90b2-d51b9bcbca70}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -413,6 +416,21 @@
     </ClCompile>
     <ClCompile Include="sort.cpp">
       <Filter>소스 파일\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="stl_template.cpp">
+      <Filter>소스 파일\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="exception .cpp">
+      <Filter>소스 파일\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="exception_func.cpp">
+      <Filter>소스 파일\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptionClass.cpp">
+      <Filter>소스 파일\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="exception_memory.cpp">
+      <Filter>소스 파일\Exception</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

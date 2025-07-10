@@ -144,6 +144,10 @@
     <ClCompile Include="define.cpp" />
     <ClCompile Include="delegatingConstructors.cpp" />
     <ClCompile Include="DynamicBinding.cpp" />
+    <ClCompile Include="exception .cpp" />
+    <ClCompile Include="exceptionClass.cpp" />
+    <ClCompile Include="exception_func.cpp" />
+    <ClCompile Include="exception_memory.cpp" />
     <ClCompile Include="final.cpp" />
     <ClCompile Include="friendFunc.cpp" />
     <ClCompile Include="friendClass.cpp" />
@@ -212,6 +216,7 @@
     <ClCompile Include="sort.cpp" />
     <ClCompile Include="staticCommon.cpp" />
     <ClCompile Include="staticMember.cpp" />
+    <ClCompile Include="stl_template.cpp" />
     <ClCompile Include="teaplate_static.cpp" />
     <ClCompile Include="tempaleInit.cpp" />
     <ClCompile Include="template.cpp" />
