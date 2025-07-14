@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="abstract.cpp" />
     <ClCompile Include="allocation.cpp" />
+    <ClCompile Include="array.cpp" />
     <ClCompile Include="ArrayManager.cpp" />
     <ClCompile Include="callBy.cpp" />
     <ClCompile Include="casting.cpp" />
@@ -170,6 +171,12 @@
     <ClCompile Include="Lab_OperatorOverlaoding.cpp" />
     <ClCompile Include="Lab_Polymorphism.cpp" />
     <ClCompile Include="Lab_String.cpp" />
+    <ClCompile Include="list.cpp" />
+    <ClCompile Include="list1.cpp" />
+    <ClCompile Include="list2.cpp" />
+    <ClCompile Include="list4.cpp" />
+    <ClCompile Include="list5.cpp" />
+    <ClCompile Include="map.cpp" />
     <ClCompile Include="moveConstructor.cpp" />
     <ClCompile Include="MultipleInheritance.cpp" />
     <ClCompile Include="mutable.cpp" />
@@ -208,6 +215,7 @@
     <ClCompile Include="Lab_Singleton.cpp" />
     <ClCompile Include="RTTI1.cpp" />
     <ClCompile Include="RTTI2.cpp" />
+    <ClCompile Include="set.cpp" />
     <ClCompile Include="shared_ptr.cpp" />
     <ClCompile Include="singletone.cpp" />
     <ClCompile Include="size.cpp" />
@@ -240,7 +248,9 @@
     <ClCompile Include="this2.cpp" />
     <ClCompile Include="functor.cpp" />
     <ClCompile Include="trans.cpp" />
+    <ClCompile Include="tuple.cpp" />
     <ClCompile Include="unique_ptr.cpp" />
+    <ClCompile Include="unordered_map.cpp" />
     <ClCompile Include="upcastingOverriding.cpp" />
     <ClCompile Include="variableTemplate.cpp" />
     <ClCompile Include="vector.cpp" />

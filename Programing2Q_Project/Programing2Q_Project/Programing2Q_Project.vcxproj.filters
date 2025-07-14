@@ -82,6 +82,18 @@
     <Filter Include="소스 파일\Exception">
       <UniqueIdentifier>{2edb9f8b-06e6-4ac4-90b2-d51b9bcbca70}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\STL\List">
+      <UniqueIdentifier>{0c5657b1-db2f-465b-8d92-b835f98ac87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL\Array">
+      <UniqueIdentifier>{8ec1c2dd-a067-4d3b-a18a-f4e039e2bd83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL\Map">
+      <UniqueIdentifier>{3c850c94-a820-4c56-a5a7-2d10dbd24aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL\Set">
+      <UniqueIdentifier>{90a3d896-fc29-4739-8ec0-12ddf860ced7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -431,6 +443,36 @@
     </ClCompile>
     <ClCompile Include="exception_memory.cpp">
       <Filter>소스 파일\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="list.cpp">
+      <Filter>소스 파일\STL\List</Filter>
+    </ClCompile>
+    <ClCompile Include="list1.cpp">
+      <Filter>소스 파일\STL\List</Filter>
+    </ClCompile>
+    <ClCompile Include="list2.cpp">
+      <Filter>소스 파일\STL\List</Filter>
+    </ClCompile>
+    <ClCompile Include="list4.cpp">
+      <Filter>소스 파일\STL\List</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>소스 파일\STL\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="list5.cpp">
+      <Filter>소스 파일\STL\List</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>소스 파일\STL\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="set.cpp">
+      <Filter>소스 파일\STL\Set</Filter>
+    </ClCompile>
+    <ClCompile Include="unordered_map.cpp">
+      <Filter>소스 파일\STL\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="tuple.cpp">
+      <Filter>소스 파일\STL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
