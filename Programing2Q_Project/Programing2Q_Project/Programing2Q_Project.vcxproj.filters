@@ -94,6 +94,12 @@
     <Filter Include="소스 파일\STL\Set">
       <UniqueIdentifier>{90a3d896-fc29-4739-8ec0-12ddf860ced7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\STL\Algorithm">
+      <UniqueIdentifier>{1a6d3b4a-51a1-4de2-bd0b-20baa0d63a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Functor">
+      <UniqueIdentifier>{0b3169f6-8ddc-408b-ad43-a66d60b82fe7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="new.cpp">
@@ -473,6 +479,186 @@
     </ClCompile>
     <ClCompile Include="tuple.cpp">
       <Filter>소스 파일\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="900_vector for_each.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="900_vector print.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="900_vector_replace if.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="901_for_each.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="901_remove_if.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="901_sort2_partial_sort.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="901_sort3_stable_sort.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="901_sort4_lambda.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="902 reverse.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="902_find2.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="902_find3.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="903 any_of all_of.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="904 copy_if.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="904 transform.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="904 transform2.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="905 transform.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="905 transform2.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="906 reverse.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="907 accumulate.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="907 accumulate2.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="908 lower_bound.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="908 max_element.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="908_max_element2.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="909 binary_search.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="909 priority_queue.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="909 priority_queue2.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="910 inner_product.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="911 permutation.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="912 random_shuffle.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="914_stl_list_sort_class1.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="914_stl_list_sort_class2.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="915_stl_erase.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="915_stl_erase_map.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="915_stl_erase2.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="916 nth_element.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="연습문제 STL 문제.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="연습문제 STL 풀이.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="연습문제 STL.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="900 count.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="900_for_each.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="901 equal.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="901_erase remove.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="901_sort.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="902_find.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="902_find_if.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="902_string_find.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="903 search.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="904 swap.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="905 copy.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="906 fill.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="907 replace.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="908_unique.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="908_unique2.cpp">
+      <Filter>소스 파일\STL\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="900_stl.cpp">
+      <Filter>소스 파일\Functor</Filter>
+    </ClCompile>
+    <ClCompile Include="900_stl_functor.cpp">
+      <Filter>소스 파일\Functor</Filter>
+    </ClCompile>
+    <ClCompile Include="900_stl_functor2.cpp">
+      <Filter>소스 파일\Functor</Filter>
+    </ClCompile>
+    <ClCompile Include="900_stl_functor3.cpp">
+      <Filter>소스 파일\Functor</Filter>
+    </ClCompile>
+    <ClCompile Include="900_stl_functor4.cpp">
+      <Filter>소스 파일\Functor</Filter>
+    </ClCompile>
+    <ClCompile Include="900_stl_functor5.cpp">
+      <Filter>소스 파일\Functor</Filter>
+    </ClCompile>
+    <ClCompile Include="900_stl_sort.cpp">
+      <Filter>소스 파일\Functor</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
